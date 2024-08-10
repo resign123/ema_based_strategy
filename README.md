@@ -42,4 +42,37 @@ The model is implemented in Python, utilizing the following key components:
 - Real-time websocket connection for live market data
 - Automated order placement and management
 
+## Setup and Configuration
+
+To use this algorithmic trading model, follow these steps:
+
+### 1. Fill Required Credentials
+
+Open the `fyers_integration.ipynb` file and fill in the following credentials:
+
+``` python
+totp_key = "xxxxxxxxxxxxxx"  # totp_key (ex., "OMKRABCDCDVDFGECLWXK6OVB7T4DTKU5")
+username = "xxxxxxxxxxxxxx"  # Fyers Client ID (ex., "TK01248")
+pin = xxxx  # four-digit PIN
+client_id = "xxxxxxxxxxxxxx"  # App ID of the created app (ex., "L9NY305RTW-100")
+secret_key = "xxxxxxxxxxxxxx"  # Secret ID of the created app
+redirect_uri = "xxxxxxxxxxxxxx"  # Redirect URL you entered while creating the app (ex., "https://trade.fyers.in/api-login/redirect-uri/index.html")
+```
+### 2. Update Variables 
+After filling in the credentials:
+
+1.Change Scripts:
+
+If you want to trade in options, change script's expiry in expiry.
+For multi-asset trading, put the script name in sym.
+
+``` python
+expiry = 'NSE:BANKNIFTY24522'
+sym = 'NSE:NIFTYBANK-INDEX'
+```
+
+2.The script will automatically update several variables. Here are some screenshots showing how different variables are updated:
+
+
+
 Note- Above mentioned strategy code is kept publicly in github for educational purpose only .I am not responsible with your profit and losses.
