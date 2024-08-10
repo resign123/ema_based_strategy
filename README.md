@@ -4,7 +4,7 @@
 
 "This is a fully automated and backtested algorithmic investment model designed for NIFTY-50 and other multi-asset trading. The model uses a combination of technical indicators and real-time market data to make trading decisions."
 
-![Strategy](strategy_image_url.png)
+![Screenshot (2)](https://github.com/user-attachments/assets/6b45bd14-8760-4cf6-a965-b930dc2b413a)
 
 ## Key Features
 
