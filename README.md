@@ -30,7 +30,7 @@
 ## Areas for Improvement
 
 1. Low win rate (33%): Our strategy have low win rate, compensated by high average profits.
-2. Consecutive losses (up to 34): No worries we have high risk-reward.
+2. Consecutive losses (up to 34): No worries we have high risk-reward. Despite of 34 consecutive losses we lose <3.5% of overall capital
 
 ## Technical Implementation
 
@@ -41,3 +41,5 @@ The model is implemented in Python, utilizing the following key components:
 - Custom functions for technical indicator calculations (EMA)
 - Real-time websocket connection for live market data
 - Automated order placement and management
+
+Note- This code is kept publicly in github for educational purpose only .I am not responsible with your profit and losses.
