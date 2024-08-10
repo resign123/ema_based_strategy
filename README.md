@@ -17,7 +17,7 @@
 
 ## Performance Metrics (Backtest Results)
 
-![Backtest Results](backtest_results_image_url.png)
+![Screenshot (3)](https://github.com/user-attachments/assets/b2459d46-351d-4706-bbdd-4fe697f89348)
 
 
 ## Key Strengths
