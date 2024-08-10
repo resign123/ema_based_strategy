@@ -73,6 +73,9 @@ sym = 'NSE:NIFTYBANK-INDEX'
 
 2.The script will automatically update several variables. Here are some screenshots showing how different variables are updated:
 
+![Screenshot (7)](https://github.com/user-attachments/assets/69876065-2804-4ba7-bef8-34bd180fd7f9)
+![Screenshot (6)](https://github.com/user-attachments/assets/d2e4f3d0-86be-4c42-93e2-093209d7167f)
+![Screenshot (5)](https://github.com/user-attachments/assets/8e573068-2fcf-435b-a4b0-37a724312118)
+![Screenshot (8)](https://github.com/user-attachments/assets/860d6e26-4cc3-40d8-b824-819732957766)
 
-
-Note- Above mentioned strategy code is kept publicly in github for educational purpose only .I am not responsible with your profit and losses.
+Note- Above mentioned strategy code is kept publicly in github for educational purpose only. I am not responsible with your profit and losses.
