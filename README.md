@@ -8,8 +8,7 @@
 
 ## Key Features
 
-- Fully automated trading
-- Uses 5-minute and 15-minute timeframes
+- Fully automated trading along with 5 years extensive backtesting
 - Implements 5 and 15 EMA along with price action
 - Real-time data processing and decision making
 - Automatic entry and exit based on predefined conditions
@@ -38,7 +37,7 @@
 The model is implemented in Python, utilizing the following key components:
 
 - Fyers API for market data and order execution 
-- Pandas for data manipulation and analysis
+- Pandas for data manipulation and analysis and selenium for automation
 - Custom functions for technical indicator calculations (EMA)
 - Real-time websocket connection for live market data
 - Automated order placement and management
