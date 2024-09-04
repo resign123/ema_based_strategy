@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "src/main.jsx", "use": "@vercel/static-build" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "http://localhost:5000/api/$1" }
+    ]
+  }
+  
